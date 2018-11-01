@@ -11,3 +11,8 @@ else {
 function distanceFromHqInFeet(block){
   return distanceFromHqInBlocks(block)*264;
 }
+
+function distanceTravelledInFeet(block1, block2){
+  return (|block1-block2|)*264;
+  
+}
