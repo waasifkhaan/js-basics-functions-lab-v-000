@@ -28,8 +28,11 @@ if (x < 400){
 else if (x > 400 && x < 2000 ){
   return (x-400)*0.02;
 }
-  else {
+  else if( x >2000 && x < 2500)  {
     return 25;
+  }
+  else {
+    return 'cannot travel that far';
   }
 
 
