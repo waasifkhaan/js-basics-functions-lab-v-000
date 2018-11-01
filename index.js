@@ -16,7 +16,7 @@ function distanceTravelledInFeet(block1, block2){
   if (block1 > block2)
   return (block1-block2)*264;
   else {
-    return (block2-block1)*264
+    return (block2-block1)*264;
   }
 
 }
