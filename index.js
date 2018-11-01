@@ -35,5 +35,9 @@ else if (x > 400 && x < 2000 ){
     return 'cannot travel that far';
   }
 
+  function llkasd() {
+    
+  }
+
 
 }
