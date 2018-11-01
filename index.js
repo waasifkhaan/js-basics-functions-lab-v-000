@@ -8,6 +8,6 @@ else {
 }
 
 }
-function distanceFromHqInFeet(distanceFromHqInBlocks){
-  return distanceFromHqInBlocks*264;
+function distanceFromHqInFeet(block){
+  return distanceFromHqInBlocks(block)*264;
 }
