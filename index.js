@@ -26,11 +26,11 @@ if (x < 400){
   return 0;
 }
 else if (x > 400 && x < 2000 ){
-  return x*0.02;
+  return (x-400)*0.02;
 }
   else {
     return 25;
   }
-  
+
 
 }
