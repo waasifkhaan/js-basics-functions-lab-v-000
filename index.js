@@ -24,11 +24,13 @@ function calculatesFarePrice(start, destination){
   let x  = distanceTravelledInFeet(start, destination);
 if (x < 400){
   return 0;
+}
 else if (x > 400 && x < 2000 ){
   return x*0.02;
+}
   else {
     return 25;
   }
-  }
-}
+  
+
 }
