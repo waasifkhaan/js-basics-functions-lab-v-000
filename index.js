@@ -13,6 +13,6 @@ function distanceFromHqInFeet(block){
 }
 
 function distanceTravelledInFeet(block1, block2){
-  return (block1-block2)*264;
+  return (block2-block1)*264;
 
 }
